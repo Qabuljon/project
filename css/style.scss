@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1270px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  li {
+    list-style: none;
+  }
+}
+.section1 {
+  .header {
+    .left {
+      .logo {
+        margin-right: 54px;
+      }
+      .link {
+        ul {
+          li {
+            margin-right: 30px;
+            a {
+            }
+          }
+        }
+      }
+    }
+    .right {
+      ul {
+        li {
+          margin-left: 28px;
+        }
+      }
+    }
+  }
+}
