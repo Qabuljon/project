@@ -27,6 +27,11 @@ ul li {
   list-style: none;
 }
 
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
 .section1 .header .left .logo {
   margin-right: 54px;
 }
